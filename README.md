@@ -48,9 +48,9 @@ Jaya Jaya Institute merupakan institusi pendidikan tinggi yang telah beroperasi 
 
 ## Business Dashboard
 
-[Jaya Jaya Institute Students Dashboard](https://link 'Tableau Public - Jaya Jaya Institute Students Dashboard'), Dashboard Siswa Jaya Jaya Institute telah dirancang secara optimal untuk memberikan wawasan kepada tenaga pengajar dan pihak internal institusi mengenai tingkat dropout siswa yang mencapai lebih dari 30%. Dashboard ini juga dibuat dengan mempertimbangkan aksesibilitas untuk individu dengan gangguan penglihatan warna.
+[Jaya Jaya Institute Students Dashboard](https://lookerstudio.google.com/reporting/78f7064e-e021-4899-8b32-ce21ccde5f26 'Tableau Public - Jaya Jaya Institute Students Dashboard'), Dashboard Siswa Jaya Jaya Institute telah dirancang secara optimal untuk memberikan wawasan kepada tenaga pengajar dan pihak internal institusi mengenai tingkat dropout siswa yang mencapai lebih dari 30%. Dashboard ini juga dibuat dengan mempertimbangkan aksesibilitas untuk individu dengan gangguan penglihatan warna.
 
-**Dashboard Interaktif:** [Academic Risk Detector](https://academic-risk-detector.streamlit.app) - Dashboard interaktif untuk analisis dan prediksi dropout siswa menggunakan Streamlit yang dapat diakses secara online.
+**Dashboard Interaktif:** [Dashboard](https://lookerstudio.google.com/reporting/78f7064e-e021-4899-8b32-ce21ccde5f26) - Dashboard interaktif untuk analisis dan prediksi dropout siswa menggunakan Looker Studio yang dapat diakses secara online.
 
 
 
@@ -79,15 +79,55 @@ Dasbor ini tersusun dalam tiga bagian pokok: area kiri memperlihatkan diagram li
 
 ## Machine Learning Prediction System
 
-Untuk dapat membantu institusi dalam memprediksi kemungkinan jika siswanya akan dropout dan mencegah hal tersebut lebih dini, dapat menggunakan sistem prediksi yang telah dibangun. Sistem dibangun menggunakan Streamlit dan untuk menjalankan sistem tersebut secara local, dapat menjalankan kode berikut pada Terminal,
+Untuk dapat membantu institusi dalam memprediksi kemungkinan jika siswanya akan dropout dan mencegah hal tersebut lebih dini, dapat menggunakan sistem prediksi yang telah dibangun. Sistem dibangun menggunakan Streamlit dan untuk menjalankan sistem tersebut secara lokal, ikuti langkah-langkah berikut:
 
-```bash
-streamlit run app.py
-```
+### Cara Menjalankan Aplikasi Streamlit
 
-Dan untuk menghentikan program aplikasi Streamlit dapat melalui `ctrl + c`.
+1. **Pastikan Environment Sudah Aktif**
+   ```bash
+   venv\Scripts\activate
+   ```
 
-Sistem prediksi tersebut juga dapat diakses secara langsung yang sudah di-deploy ke Streamlit Cloud melalui tautan [Academic Risk Detector](https://academic-risk-detector.streamlit.app 'Jaya Jaya Institute Students Dropout Prediction').
+2. **Jalankan Aplikasi Streamlit**
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+
+3. **Akses Aplikasi**
+   - Aplikasi akan terbuka secara otomatis di browser pada `http://localhost:8501`
+   - Jika tidak terbuka otomatis, buka browser dan kunjungi alamat tersebut
+
+4. **Menghentikan Aplikasi**
+   - Tekan `Ctrl + C` di terminal untuk menghentikan server Streamlit
+
+### Cara Melakukan Prediksi
+
+#### Prediksi Data Tunggal:
+1. Pilih tab **"Single Data Prediction"**
+2. Isi semua field yang tersedia dengan data siswa:
+   - **Data Demografis**: Gender, Age at enrollment, Nationality, dll.
+   - **Data Akademik**: Course, Application mode, Previous qualification, dll.
+   - **Data Keuangan**: Tuition fees up to date, Scholarship holder, Debtor status
+   - **Data Kinerja**: Curricular units (semester 1 & 2), grades, evaluations
+   - **Data Ekonomi**: GDP, Inflation rate, Unemployment rate
+3. Klik tombol **"✨ Predict"**
+4. Hasil prediksi akan muncul di bawah tombol:
+   - **Graduate** (hijau): Siswa diprediksi akan lulus
+   - **Dropout** (merah): Siswa diprediksi akan dropout
+
+#### Prediksi Data Multiple (Batch):
+1. Pilih tab **"Multiple Data Prediction"**
+2. Download template Excel dengan klik **"📥 Download Student Data Template"**
+3. Isi template Excel dengan data siswa (bisa multiple rows)
+4. Upload file Excel yang sudah diisi
+5. Klik tombol **"✨ Predict Data"**
+6. Download hasil prediksi dalam format Excel
+
+### Dashboard Bisnis
+
+Selain sistem prediksi lokal, tersedia juga dashboard bisnis yang komprehensif untuk analisis pola dropout siswa. Dashboard ini menyediakan visualisasi interaktif dan insight mendalam tentang faktor-faktor yang mempengaruhi tingkat dropout.
+
+Dashboard dapat diakses secara langsung melalui Looker Studio pada tautan [Dashboard](https://lookerstudio.google.com/reporting/78f7064e-e021-4899-8b32-ce21ccde5f26 'Jaya Jaya Institute Students Dropout Analysis Dashboard').
 
 ## Conclusion
 
@@ -106,4 +146,4 @@ Berikut beberapa rekomendai yang dapat diambil oleh institusi untuk mengatasi pe
 - Menyediakan opsi program gap year disertai orientasi khusus untuk siswa yang kembali dari gap year, guna membantu dalam penyesuaian diri dengan lingkungan, teknologi, atau kurikulum yang mungkin telah berubah.
 - Mengadakan program bimbingan belajar khusus untuk siswa dengan nilai rendah, terutama yang berusia lebih tua dan yang sudah menikah.
 - Mendirikan pusat dukungan psikologis dan konseling bagi siswa yang mengalami tekanan finansial atau akademik.
-- Melakukan peninjauan dan pemantauan lebih lanjut terhadap siswa yang saat ini sedang terdaftar (enrolled), serta prediksi kemungkinan siswa untuk tidak lulus/dropout melalui sistem yang telah dibangun menggunakan teknologi machine learning melalui website prediksi [Academic Risk Detector](https://academic-risk-detector.streamlit.app 'Jaya Jaya Institute Students Dropout Prediction').
+- Melakukan peninjauan dan pemantauan lebih lanjut terhadap siswa yang saat ini sedang terdaftar (enrolled), serta analisis mendalam terhadap pola dropout melalui dashboard yang telah dibangun menggunakan Looker Studio melalui [Dashboard](https://lookerstudio.google.com/reporting/78f7064e-e021-4899-8b32-ce21ccde5f26 'Jaya Jaya Institute Students Dropout Analysis Dashboard').
