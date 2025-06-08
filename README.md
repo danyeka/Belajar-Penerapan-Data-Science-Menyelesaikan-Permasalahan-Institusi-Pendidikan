@@ -28,7 +28,7 @@ Jaya Jaya Institute merupakan institusi pendidikan tinggi yang telah beroperasi 
 
 1. Clone this Repository
    ```bash
-   git clone 
+   git clone https://github.com/danyeka/Belajar-Penerapan-Data-Science-Menyelesaikan-Permasalahan-Institusi-Pendidikan.git
    ```
 
 2. Create Python Virtual Environment
@@ -50,20 +50,22 @@ Jaya Jaya Institute merupakan institusi pendidikan tinggi yang telah beroperasi 
 
 [Jaya Jaya Institute Students Dashboard](https://link 'Tableau Public - Jaya Jaya Institute Students Dashboard'), Dashboard Siswa Jaya Jaya Institute telah dirancang secara optimal untuk memberikan wawasan kepada tenaga pengajar dan pihak internal institusi mengenai tingkat dropout siswa yang mencapai lebih dari 30%. Dashboard ini juga dibuat dengan mempertimbangkan aksesibilitas untuk individu dengan gangguan penglihatan warna.
 
+**Dashboard Interaktif Lokal:** [dashboard](http://localhost:8501) - Dashboard interaktif yang dapat diakses secara lokal untuk analisis dan prediksi dropout siswa menggunakan Streamlit.
+
 
 
 ![Jaya Jaya Maju Employees Dashboard]( 'Jaya Jaya Institute Students Dashboard')
 
-Dashboard terdiri dari tiga bagian utama: bagian kiri menampilkan diagram lingkaran ringkasan data siswa, bagian tengah menunjukkan diagram sebar persebaran data siswa, dan bagian kanan berisi data numerik, diagram batang faktor dropout mahasiswa, serta filter dan legenda.
-> Dari **pie chart jenis kelamin**, dapat dilihat bahwa populasi data lebih banyak berjenis kelamin perempuan, sebesar 2868 (64.83%), sedangkan laki-laki hanya 1556 (35.17%).  
-> Dari **pie chart status siswa**, terdapat total 4424 siswa, di antaranya 794 (17.95%) yang saat ini sedang terdaftar, 2209 (49.93%) yang sudah lulus, dan 1421 (32.12%) yang dropout.  
-> Dari **pie chart beasiswa**, hampir 1/4, yaitu sebesar  1099 (24.84%) siswa yang memperoleh beasiswa, sedangkan 3325 (75.16%) sisanya tidak.  
-> Dari **pie chart debitur** sebanyak 503 (11.37%) adalah seorang debitur, dan 3921 (88.63%) sisanya tidak.  
-> Dari **scatter plot status siswa berdasarkan umur dan nilai tes masuk**, dapat dilihat dengan jelas rata-rata siswa yang lulus sebagian besar berada pada usia di bawah 20 sampai 25 tahun, dengan rata-rata Nilai Penerimaan (Admission Grade) berkisar 120 sampai 160. Sementara itu, siswa yang berusia 30 sampai 40 tahun, bahkan 50 tahun memiliki rata-rata Nilai Penerimaan (Admission Grade) 100 sampai 140 dan berstatus dropout.  
-> **Rata-rata umur** adalah 23.27 tahun, **rata-rata Nilai Penerimaan (Admission Grade)** adalah 127.0, dan sebanyak 110 siswa **internasional**, dan 4314 siswa lokal.  
-> Dari **bar chart status siswa berdasarkan status debtor**, dapat dilihat siswa yang menjadi debitur jelas tergambar paling banyak adalah mereka yang berstatus dropout (312 siswa) dibandingkan dengan mereka yang lulus (101 siswa). Hal ini menggambarkan adanya faktor finansial yang sangat kuat terhadap tingkat kelulusan dan dropout siswa.  
-> Dari **bar chart status siswa berdasarkan beasiswa**, terdapat 835 siswa lulus dengan beasiswa dan 1374 siswa yang lulus tanpa beasiswa, sebesar 37.79% berbanding 62.20%. Sedangkan siswa yang dropout dengan beasiswa sebanyak 134 dan siswa yang dropout tanpa beasiswa sebanyak 1287, sebesar 9.43% berbanding 90.57%.  
-> Dari **bar chart distribusi jenis kursus dan jenis kelamin**, kursus dengan data terbanyak adalah Keperawatan dengan jenis kelamin dominan adalah Perempuan. Sementara kursus dengan data paling sedikit adalah Teknologi Produksi Buofuel dengan dominasi Laki-laki. Selain itu, mahasiswa Laki-laki terbanyak ada di Program Studi Teknik Informatika dan Manajemen.  
+Dasbor ini tersusun dalam tiga bagian pokok: area kiri memperlihatkan diagram lingkaran yang merangkum informasi mahasiswa, area tengah menampilkan diagram pencar distribusi mahasiswa, dan area kanan berisi data angka, diagram batang faktor-faktor dropout mahasiswa, beserta filter dan keterangan.
+> Berdasarkan **diagram lingkaran gender**, terlihat bahwa mayoritas mahasiswa adalah perempuan dengan jumlah 2.868 orang (64,83%), sementara mahasiswa laki-laki berjumlah 1.556 orang (35,17%).  
+> Melalui **diagram lingkaran status mahasiswa**, tercatat total 4.424 mahasiswa, dengan rincian 794 orang (17,95%) masih aktif kuliah, 2.209 orang (49,93%) telah lulus, dan 1.421 orang (32,12%) mengalami dropout.  
+> Pada **diagram lingkaran beasiswa**, hampir seperempat mahasiswa yakni 1.099 orang (24,84%) menerima beasiswa, sedangkan 3.325 orang (75,16%) tidak menerima beasiswa.  
+> **Diagram lingkaran debitur** menunjukkan 503 orang (11,37%) tercatat sebagai debitur, sementara 3.921 orang (88,63%) bukan debitur.  
+> **Diagram pencar status mahasiswa berdasarkan usia dan nilai ujian masuk** memperlihatkan bahwa sebagian besar lulusan berusia antara 20-25 tahun dengan nilai masuk berkisar 120-160. Sebaliknya, mahasiswa berusia 30-40 tahun, bahkan mencapai 50 tahun, umumnya memiliki nilai masuk antara 100-140 dan cenderung mengalami dropout.  
+> Data menunjukkan **rata-rata usia** mahasiswa adalah 23,27 tahun, dengan **rata-rata Nilai Masuk** sebesar 127,0, serta terdapat 110 mahasiswa **internasional** dan 4.314 mahasiswa lokal.  
+> **Diagram batang status mahasiswa berdasarkan status debitur** mengungkapkan bahwa mahasiswa debitur lebih banyak yang dropout (312 orang) dibandingkan yang lulus (101 orang). Hal ini mengindikasikan kuatnya pengaruh faktor keuangan terhadap tingkat kelulusan dan dropout.  
+> Dari **diagram batang status mahasiswa berdasarkan beasiswa**, tercatat 835 penerima beasiswa berhasil lulus berbanding 1.374 lulusan non-beasiswa, dengan rasio 37,79% berbanding 62,20%. Sementara di kalangan mahasiswa dropout, 134 adalah penerima beasiswa dan 1.287 bukan penerima beasiswa, dengan perbandingan 9,43% berbanding 90,57%.  
+> **Diagram batang distribusi program studi dan gender** menunjukkan bahwa Keperawatan memiliki peminat terbanyak dengan dominasi mahasiswa perempuan, sedangkan Teknologi Produksi Biofuel memiliki peminat paling sedikit dengan dominasi mahasiswa laki-laki. Selain itu, program studi Teknik Informatika dan Manajemen mencatat jumlah mahasiswa laki-laki terbanyak.
 
 
 ## Machine Learning Prediction System
@@ -76,7 +78,7 @@ streamlit run streamlit_app.py
 
 Dan untuk menghentikan program aplikasi Streamlit dapat melalui `ctrl + c`.
 
-Sistem prediksi tersebut juga dapat diakses secara langsung yang sudah di-deploy ke Streamlit Cloud melalui tautan [berikut ini](https://student-do-predict.streamlit.app 'Jaya Jaya Institute Students Dropout Prediction').
+Sistem prediksi tersebut juga dapat diakses secara langsung yang sudah di-deploy ke Streamlit Cloud melalui tautan [berikut ini](https://academic-risk-detector.streamlit.app 'Jaya Jaya Institute Students Dropout Prediction').
 
 ## Conclusion
 
@@ -95,4 +97,4 @@ Berikut beberapa rekomendai yang dapat diambil oleh institusi untuk mengatasi pe
 - Menyediakan opsi program gap year disertai orientasi khusus untuk siswa yang kembali dari gap year, guna membantu dalam penyesuaian diri dengan lingkungan, teknologi, atau kurikulum yang mungkin telah berubah.
 - Mengadakan program bimbingan belajar khusus untuk siswa dengan nilai rendah, terutama yang berusia lebih tua dan yang sudah menikah.
 - Mendirikan pusat dukungan psikologis dan konseling bagi siswa yang mengalami tekanan finansial atau akademik.
-- Melakukan peninjauan dan pemantauan lebih lanjut terhadap siswa yang saat ini sedang terdaftar (enrolled), serta prediksi kemungkinan siswa untuk tidak lulus/dropout melalui sistem yang telah dibangun menggunakan teknologi machine learning melalui website prediksi [berikut ini](https://student-do-predict.streamlit.app 'Jaya Jaya Institute Students Dropout Prediction').
+- Melakukan peninjauan dan pemantauan lebih lanjut terhadap siswa yang saat ini sedang terdaftar (enrolled), serta prediksi kemungkinan siswa untuk tidak lulus/dropout melalui sistem yang telah dibangun menggunakan teknologi machine learning melalui website prediksi [berikut ini](https://academic-risk-detector.streamlit.app'Jaya Jaya Institute Students Dropout Prediction').
