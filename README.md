@@ -50,7 +50,7 @@ Jaya Jaya Institute merupakan institusi pendidikan tinggi yang telah beroperasi 
 
 [Jaya Jaya Institute Students Dashboard](https://link 'Tableau Public - Jaya Jaya Institute Students Dashboard'), Dashboard Siswa Jaya Jaya Institute telah dirancang secara optimal untuk memberikan wawasan kepada tenaga pengajar dan pihak internal institusi mengenai tingkat dropout siswa yang mencapai lebih dari 30%. Dashboard ini juga dibuat dengan mempertimbangkan aksesibilitas untuk individu dengan gangguan penglihatan warna.
 
-**Dashboard Interaktif Lokal:** [dashboard](http://localhost:8501) - Dashboard interaktif yang dapat diakses secara lokal untuk analisis dan prediksi dropout siswa menggunakan Streamlit.
+**Dashboard Interaktif:** [Academic Risk Detector](https://academic-risk-detector.streamlit.app) - Dashboard interaktif untuk analisis dan prediksi dropout siswa menggunakan Streamlit yang dapat diakses secara online.
 
 
 
@@ -78,7 +78,7 @@ streamlit run streamlit_app.py
 
 Dan untuk menghentikan program aplikasi Streamlit dapat melalui `ctrl + c`.
 
-Sistem prediksi tersebut juga dapat diakses secara langsung yang sudah di-deploy ke Streamlit Cloud melalui tautan [berikut ini](https://academic-risk-detector.streamlit.app 'Jaya Jaya Institute Students Dropout Prediction').
+Sistem prediksi tersebut juga dapat diakses secara langsung yang sudah di-deploy ke Streamlit Cloud melalui tautan [Academic Risk Detector](https://academic-risk-detector.streamlit.app 'Jaya Jaya Institute Students Dropout Prediction').
 
 ## Conclusion
 
@@ -97,4 +97,4 @@ Berikut beberapa rekomendai yang dapat diambil oleh institusi untuk mengatasi pe
 - Menyediakan opsi program gap year disertai orientasi khusus untuk siswa yang kembali dari gap year, guna membantu dalam penyesuaian diri dengan lingkungan, teknologi, atau kurikulum yang mungkin telah berubah.
 - Mengadakan program bimbingan belajar khusus untuk siswa dengan nilai rendah, terutama yang berusia lebih tua dan yang sudah menikah.
 - Mendirikan pusat dukungan psikologis dan konseling bagi siswa yang mengalami tekanan finansial atau akademik.
-- Melakukan peninjauan dan pemantauan lebih lanjut terhadap siswa yang saat ini sedang terdaftar (enrolled), serta prediksi kemungkinan siswa untuk tidak lulus/dropout melalui sistem yang telah dibangun menggunakan teknologi machine learning melalui website prediksi [berikut ini](https://academic-risk-detector.streamlit.app'Jaya Jaya Institute Students Dropout Prediction').
+- Melakukan peninjauan dan pemantauan lebih lanjut terhadap siswa yang saat ini sedang terdaftar (enrolled), serta prediksi kemungkinan siswa untuk tidak lulus/dropout melalui sistem yang telah dibangun menggunakan teknologi machine learning melalui website prediksi [Academic Risk Detector](https://academic-risk-detector.streamlit.app 'Jaya Jaya Institute Students Dropout Prediction').
