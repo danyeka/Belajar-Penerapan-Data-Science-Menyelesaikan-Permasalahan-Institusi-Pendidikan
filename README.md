@@ -82,7 +82,7 @@ Dasbor ini tersusun dalam tiga bagian pokok: area kiri memperlihatkan diagram li
 Untuk dapat membantu institusi dalam memprediksi kemungkinan jika siswanya akan dropout dan mencegah hal tersebut lebih dini, dapat menggunakan sistem prediksi yang telah dibangun. Sistem dibangun menggunakan Streamlit dan untuk menjalankan sistem tersebut secara local, dapat menjalankan kode berikut pada Terminal,
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
 
 Dan untuk menghentikan program aplikasi Streamlit dapat melalui `ctrl + c`.
