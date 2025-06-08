@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')  # Set backend sebelum import pyplot
 import matplotlib.pyplot as plt
 import seaborn as sns
 import altair as alt
