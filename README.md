@@ -57,14 +57,23 @@ Jaya Jaya Institute merupakan institusi pendidikan tinggi yang telah beroperasi 
 ![Jaya Jaya Maju Employees Dashboard]( 'Jaya Jaya Institute Students Dashboard')
 
 Dasbor ini tersusun dalam tiga bagian pokok: area kiri memperlihatkan diagram lingkaran yang merangkum informasi mahasiswa, area tengah menampilkan diagram pencar distribusi mahasiswa, dan area kanan berisi data angka, diagram batang faktor-faktor dropout mahasiswa, beserta filter dan keterangan.
+
 > Berdasarkan **diagram lingkaran gender**, terlihat bahwa mayoritas mahasiswa adalah perempuan dengan jumlah 2.868 orang (64,83%), sementara mahasiswa laki-laki berjumlah 1.556 orang (35,17%).  
+
 > Melalui **diagram lingkaran status mahasiswa**, tercatat total 4.424 mahasiswa, dengan rincian 794 orang (17,95%) masih aktif kuliah, 2.209 orang (49,93%) telah lulus, dan 1.421 orang (32,12%) mengalami dropout.  
-> Pada **diagram lingkaran beasiswa**, hampir seperempat mahasiswa yakni 1.099 orang (24,84%) menerima beasiswa, sedangkan 3.325 orang (75,16%) tidak menerima beasiswa.  
+
+> Pada **diagram lingkaran beasiswa**, hampir seperempat mahasiswa yakni 1.099 orang (24,84%) menerima beasiswa, sedangkan 3.325 orang (75,16%) tidak menerima beasiswa.
+
 > **Diagram lingkaran debitur** menunjukkan 503 orang (11,37%) tercatat sebagai debitur, sementara 3.921 orang (88,63%) bukan debitur.  
-> **Diagram pencar status mahasiswa berdasarkan usia dan nilai ujian masuk** memperlihatkan bahwa sebagian besar lulusan berusia antara 20-25 tahun dengan nilai masuk berkisar 120-160. Sebaliknya, mahasiswa berusia 30-40 tahun, bahkan mencapai 50 tahun, umumnya memiliki nilai masuk antara 100-140 dan cenderung mengalami dropout.  
+
+> **Diagram pencar status mahasiswa berdasarkan usia dan nilai ujian masuk** memperlihatkan bahwa sebagian besar lulusan berusia antara 20-25 tahun dengan nilai masuk berkisar 120-160. Sebaliknya, mahasiswa berusia 30-40 tahun, bahkan mencapai 50 tahun, umumnya memiliki nilai masuk antara 100-140 dan cenderung mengalami dropout.
+
 > Data menunjukkan **rata-rata usia** mahasiswa adalah 23,27 tahun, dengan **rata-rata Nilai Masuk** sebesar 127,0, serta terdapat 110 mahasiswa **internasional** dan 4.314 mahasiswa lokal.  
+
 > **Diagram batang status mahasiswa berdasarkan status debitur** mengungkapkan bahwa mahasiswa debitur lebih banyak yang dropout (312 orang) dibandingkan yang lulus (101 orang). Hal ini mengindikasikan kuatnya pengaruh faktor keuangan terhadap tingkat kelulusan dan dropout.  
+
 > Dari **diagram batang status mahasiswa berdasarkan beasiswa**, tercatat 835 penerima beasiswa berhasil lulus berbanding 1.374 lulusan non-beasiswa, dengan rasio 37,79% berbanding 62,20%. Sementara di kalangan mahasiswa dropout, 134 adalah penerima beasiswa dan 1.287 bukan penerima beasiswa, dengan perbandingan 9,43% berbanding 90,57%.  
+
 > **Diagram batang distribusi program studi dan gender** menunjukkan bahwa Keperawatan memiliki peminat terbanyak dengan dominasi mahasiswa perempuan, sedangkan Teknologi Produksi Biofuel memiliki peminat paling sedikit dengan dominasi mahasiswa laki-laki. Selain itu, program studi Teknik Informatika dan Manajemen mencatat jumlah mahasiswa laki-laki terbanyak.
 
 
