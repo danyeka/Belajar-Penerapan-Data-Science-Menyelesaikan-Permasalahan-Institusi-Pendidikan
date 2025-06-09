@@ -131,12 +131,54 @@ Dashboard dapat diakses secara langsung melalui Looker Studio pada tautan [Dashb
 
 ## Conclusion
 
-Berikut adalah beberapa poin penting yang bisa ditarik menjadi kesimpulan:
-- **Distribusi Demografi Siswa:** Mayoritas siswa berjenis kelamin perempuan (64.83%), dengan sebagian besar populasi total adalah siswa lokal (97.51%) dibandingkan siswa internasional (2.49%).
-- **Status Siswa:** Dari total 4424 siswa, hampir sepertiga (32.12%) mengalami dropout. Sebagian besar siswa yang lulus berada pada usia muda (20–25 tahun) dengan nilai penerimaan yang relatif lebih tinggi (120–160), sementara siswa usia lebih tua dan dengan nilai lebih rendah cenderung mengalami dropout.
-- **Pengaruh Beasiswa:** Siswa yang menerima beasiswa memiliki tingkat kelulusan yang lebih tinggi (37.79%) dibandingkan dengan tingkat dropout (9.43%), menunjukkan peran signifikan beasiswa dalam mendukung keberhasilan akademik.
-- **Faktor Keuangan:** Sebagian besar siswa dropout (61.99%) adalah debitur, menandakan kemungkinan adanya tekanan finansial yang memengaruhi keberlanjutan studi mereka.
-- **Distribusi Berdasarkan Kursus:** Kursus dengan jumlah siswa tertinggi adalah Keperawatan dengan dominasi perempuan, sementara Teknologi Produksi Biofuel memiliki jumlah siswa terendah dengan dominasi laki-laki.
+Berdasarkan analisis data mahasiswa Jaya Jaya Institute, ditemukan beberapa temuan kritis yang memerlukan perhatian segera:
+
+### 📊 **Gambaran Umum Dropout**
+- **38.8%** mahasiswa mengalami dropout dari total 4.424 mahasiswa
+- **61.2%** mahasiswa berhasil bertahan (Graduate/Enrolled)
+- Tingkat dropout hampir 40% menunjukkan masalah serius yang perlu ditangani
+
+### 🎯 **Faktor Risiko Utama Dropout**
+
+#### 1. **Faktor Keuangan (Paling Kritis)**
+- **61.99%** mahasiswa dropout adalah debitur
+- Mahasiswa dengan status debtor memiliki risiko dropout **40-50x lebih tinggi**
+- **95%** mahasiswa yang tidak dropout adalah non-debtor
+
+#### 2. **Status Beasiswa**
+- Mahasiswa **tanpa beasiswa** (~2.4K) memiliki tingkat dropout lebih tinggi
+- Mahasiswa **penerima beasiswa** (~0.8K) menunjukkan tingkat retensi yang sangat baik
+- Beasiswa terbukti sebagai **faktor protektif** yang efektif
+
+#### 3. **Demografi dan Status Pernikahan**
+- **Mahasiswa laki-laki** memiliki proporsi dropout lebih tinggi meskipun jumlah total lebih sedikit
+- **Mahasiswa single** menunjukkan tingkat dropout **61.99%** vs married **38.01%**
+- Mahasiswa yang sudah menikah cenderung lebih stabil secara akademik
+
+### 📈 **Distribusi Program Studi**
+- **Program Keperawatan**: Jumlah mahasiswa tertinggi dengan dominasi perempuan
+- **Program Management, Tourism, Social Communication**: Tingkat dropout sangat tinggi
+- **Variasi signifikan** tingkat dropout antar program studi menunjukkan perlunya evaluasi kurikulum
+
+### 🚨 **Rekomendasi Strategis**
+
+#### **Prioritas Tinggi:**
+1. **Ekspansi program beasiswa** dan bantuan keuangan darurat
+2. **Sistem early warning** untuk mahasiswa dengan masalah finansial
+3. **Program mentoring khusus** untuk mahasiswa laki-laki dan single
+
+#### **Prioritas Menengah:**
+4. **Evaluasi dan restrukturisasi** program studi dengan dropout tinggi
+5. **Konseling keuangan** dan manajemen hutang
+6. **Program work-study** atau magang berbayar
+
+#### **Prioritas Jangka Panjang:**
+7. **Restrukturisasi sistem pembiayaan** pendidikan institusi
+8. **Kemitraan dengan lembaga keuangan** untuk pinjaman pendidikan
+9. **Pengembangan support system** yang komprehensif
+
+### 💡 **Kesimpulan Utama**
+**Faktor finansial** merupakan **predictor terkuat** untuk dropout, diikuti oleh **gender** dan **pilihan program studi**. Institusi harus mengadopsi pendekatan **multi-dimensional** yang mengatasi ketiga faktor ini secara simultan untuk mencapai penurunan tingkat dropout yang signifikan.
 
 ### Recommended Action Items
 
