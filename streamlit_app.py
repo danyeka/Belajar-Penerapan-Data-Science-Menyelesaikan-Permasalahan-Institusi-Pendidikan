@@ -1,4 +1,5 @@
 import datetime
+import os
 import pandas as pd
 import streamlit as st
 import joblib
@@ -8,7 +9,13 @@ import io
 buffer = io.BytesIO()
 
 def data_preprocessing(data_input, single_data, n):
-    df = pd.read_csv('student_data_filtered.csv')
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    try:
+        df = pd.read_csv(os.path.join(base_dir, 'student_data_filtered.csv'))
+    except FileNotFoundError as e:
+        st.error(f"File tidak ditemukan: {e}")
+        st.stop()
+    
     df = df.drop(columns=['Status'], axis=1)
     df = pd.concat([data_input, df])
 
@@ -20,7 +27,12 @@ def data_preprocessing(data_input, single_data, n):
         return df[0 : n]
 
 def model_predict(df):
-    model = joblib.load('model_rf.joblib')
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    try:
+        model = joblib.load(os.path.join(base_dir, 'model_rf.joblib'))
+    except FileNotFoundError as e:
+        st.error(f"File tidak ditemukan: {e}")
+        st.stop()
     return model.predict(df)
 
 def color_mapping(value):

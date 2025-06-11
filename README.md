@@ -96,6 +96,7 @@ Untuk dapat membantu institusi dalam memprediksi kemungkinan jika siswanya akan 
 3. **Akses Aplikasi**
    - Aplikasi akan terbuka secara otomatis di browser pada `http://localhost:8501`
    - Jika tidak terbuka otomatis, buka browser dan kunjungi alamat tersebut
+   - 
 
 4. **Menghentikan Aplikasi**
    - Tekan `Ctrl + C` di terminal untuk menghentikan server Streamlit
