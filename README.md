@@ -79,7 +79,15 @@ Dasbor ini tersusun dalam tiga bagian pokok: area kiri memperlihatkan diagram li
 
 ## Machine Learning Prediction System
 
-Untuk dapat membantu institusi dalam memprediksi kemungkinan jika siswanya akan dropout dan mencegah hal tersebut lebih dini, dapat menggunakan sistem prediksi yang telah dibangun. Sistem dibangun menggunakan Streamlit dan untuk menjalankan sistem tersebut secara lokal, ikuti langkah-langkah berikut:
+Untuk dapat membantu institusi dalam memprediksi kemungkinan jika siswanya akan dropout dan mencegah hal tersebut lebih dini, dapat menggunakan sistem prediksi yang telah dibangun. Sistem dibangun menggunakan Streamlit dan dapat diakses secara online atau dijalankan secara lokal.
+
+### Akses Online
+
+**🌐 Live Demo:** [Jaya Jaya Institute Student Prediction](https://jayajaya-institute-student-prediction.streamlit.app/) - Aplikasi prediksi dropout mahasiswa yang dapat diakses langsung melalui browser tanpa instalasi.
+
+### Menjalankan Secara Lokal
+
+Untuk menjalankan sistem tersebut secara lokal, ikuti langkah-langkah berikut:
 
 ### Cara Menjalankan Aplikasi Streamlit
 
